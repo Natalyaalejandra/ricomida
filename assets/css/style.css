@@ -1,0 +1,95 @@
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+.ricomida {
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+.header {
+  margin-top: 2rem;
+  font-weight: 400;
+}
+
+.botones-header {
+  font-weight: 400;
+}
+
+.detalles, .newsletter-texto, .card-text {
+  font-weight: 400;
+}
+
+.card-title, .recetas, .newsletter-title {
+  font-weight: 700;
+}
+
+
+@media (max-width: 767px) {
+  h1 {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .header {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .segundo-texto {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+
+.detalle {
+  margin-right: 20rem;
+}
+
+
+hr {
+  border-bottom: black;
+  border-color: black
+}
+
+
+.btn-md {
+  color: black;
+}
+
+.carousel-indicators {
+  bottom: 3rem; /*cambiar*/
+  border-color: black;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.carousel-indicators li {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: #373A3C;
+}
+
+.ingredientes .lista {
+  list-style: none;
+  padding-left: 0;
+}
+
+.newsletter span {
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+}
+
+.boton-empezar {
+  padding-bottom: 4rem;
+}
